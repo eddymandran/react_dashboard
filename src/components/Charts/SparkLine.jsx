@@ -15,7 +15,6 @@ const SparkLine = ({id, height, width, color, data, type, currentColor}) => {
             dataSource={data}
             tooltipSettings={{
                 visible: true,
-                // eslint-disable-next-line no-template-curly-in-string
                 format: '${x} : data ${yval}',
                 trackLineSettings: {
                     visible: true,
